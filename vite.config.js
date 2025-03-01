@@ -4,7 +4,7 @@ import federation from '@originjs/vite-plugin-federation'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/pokedex-detail',
+  base: '/pokedex-detail/',
   plugins: [react(),
   federation({
     name: 'pokedex-detail',
