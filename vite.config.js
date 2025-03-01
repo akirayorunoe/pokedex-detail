@@ -4,6 +4,7 @@ import federation from '@originjs/vite-plugin-federation'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/pokedex-detail',
   plugins: [react(),
   federation({
     name: 'pokedex-detail',
@@ -11,7 +12,7 @@ export default defineConfig({
     exposes: {
       './PokeDetail': './src/components/PokeDetail.jsx'
     },
-    shared: ['react', 'react-dom', '@tanstack/react-query', 'react-router-dom']
+    shared: ['react', 'react-dom', '@tanstack/react-query', 'react-router-dom', 'gh-pages']
   })
   ],
   build: {
