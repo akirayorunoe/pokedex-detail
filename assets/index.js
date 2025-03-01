@@ -1,7 +1,7 @@
-import { importShared } from './__federation_fn_import-U9H0mC5v.js';
-import { j as jsxRuntimeExports } from './jsx-runtime-XI9uIe3W.js';
-import { r as requireReact } from './index-D9SXwo1H.js';
-import { r as requireReactDom } from './index-brvGd106.js';
+import { importShared } from './__federation_fn_import.js';
+import { j as jsxRuntimeExports } from './jsx-runtime.js';
+import { r as requireReact } from './index2.js';
+import { r as requireReactDom } from './index3.js';
 
 true&&(function polyfill() {
   const relList = document.createElement("link").relList;
@@ -15614,7 +15614,7 @@ function requireClient () {
 
 var clientExports = requireClient();
 
-const reactLogo = "/pokedex-detail/assets/react-CHdo91hT.svg";
+const reactLogo = "/pokedex-detail/assets/react.svg";
 
 const viteLogo = "/pokedex-detail/vite.svg";
 

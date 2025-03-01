@@ -1,4 +1,4 @@
-import { importShared } from './__federation_fn_import-U9H0mC5v.js';
+import { importShared } from './__federation_fn_import.js';
 
 // src/utils.ts
 var HOLE = -1;
