@@ -10,9 +10,10 @@ export default defineConfig({
     name: 'pokedex-detail',
     filename: 'remoteEntry.js',
     exposes: {
-      './PokeDetail': './src/components/PokeDetail.jsx'
+      './PokeDetail': './src/components/PokeDetail.jsx',
+      './Counter': './src/components/Counter.jsx',
     },
-    shared: ['react', 'react-dom', '@tanstack/react-query', 'react-router-dom', 'gh-pages']
+    shared: ['react', 'react-dom', '@tanstack/react-query', 'react-router-dom', 'gh-pages', '@reduxjs/toolkit', 'react-redux']
   })
   ],
   build: {
