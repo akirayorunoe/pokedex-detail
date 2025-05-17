@@ -1,0 +1,1 @@
+import{importShared as e}from"./__federation_fn_import.js";import{j as t}from"./jsx-runtime.js";await e("react");const{useSelector:n}=await e("react-redux"),c=()=>{const r=n(o=>o?.counter?.value);return t.jsx("div",{style:{textAlign:"center",marginTop:50},children:t.jsxs("h1",{children:["Counter: ",r]})})};export{c as default};
